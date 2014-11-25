@@ -152,7 +152,7 @@ body .customersection {
 	margin-right: 30px;
 }
 
-body .customersection .customerdiv1 h2 {
+body h2 {
 	display: inline-block;
 	text-align: center;
 	width: 80%;
@@ -182,6 +182,75 @@ body .customersection .customerdiv1 h2 {
 	width: 10%;
 }
 
+.valuesection {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	overflow: hidden;
+	padding-left: 15px;
+}
+
+.valuesection section {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	border: 2px solid red;
+}
+
+.valuesection h2 {
+	margin-left: 120px;
+}
+
+.column1 {
+	border: 2px solid purple;
+	width: 380px;
+}
+
+.column2 {
+	border: 2px solid green;
+	width: ;
+}
+.column1 div {
+	width: 50%;
+	float: left;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5em;
+	display: inline;
+}
+
+.column2 div {
+	width: 50%;
+	float: right;
+	clear: left;
+	margin-right: 0px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5em;
+	display: inline;
+	border: 2px solid green;
+}
+
+.valuesection h3 {
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	width: 25px;
+	padding-left: 5px;
+	float: left;
+	font-size: 58px;
+	font-weight: 500;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+	color: #CCC;
+}
+
+.valuesection h4 {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 16px;
+	margin: 5px 0;
+	color: #C00;
+	text-align: left;
+}
 
 a:link {
     text-decoration: none;
