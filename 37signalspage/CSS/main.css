@@ -187,49 +187,61 @@ body h2 {
 	text-align: center;
 	width: 90%;
 	overflow: hidden;
-	padding-left: 15px;
+	padding-left: 10px;
+	float: left;
 }
 
-.valuesection section {
+/*.valuesection section {
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
 	border: 2px solid red;
-}
+} */
 
 .valuesection h2 {
 	margin-left: 120px;
 }
 
 .column1 {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	width: 380px;
+	float: left;
+	clear: left;
+	display: inline;
+	position: relative;
+	margin: 0 auto;
+	margin-left: 120px;
 }
 
 .column2 {
-	border: 2px solid green;
-	width: ;
-}
-.column1 div {
-	width: 50%;
-	float: left;
-	margin-right: 40px;
-	text-align: center;
-	font-size: 18px;
-	line-height: 1.5em;
-	display: inline;
-}
-
-.column2 div {
+	border: 0px solid green;
 	width: 50%;
 	float: right;
+	clear: right;
+	display: inline;
+	position: relative;
+	margin: 0 auto;
+}
+
+.column1 > div {
+	width: 380px;
+	float: left;
 	clear: left;
-	margin-right: 0px;
 	text-align: center;
 	font-size: 18px;
 	line-height: 1.5em;
-	display: inline;
-	border: 2px solid green;
+	margin: 0 auto;
+}
+
+.column2 > div {
+	width: 380px;
+	float: right;
+	clear: right;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5em;
+	border: 0px solid green;
+	margin: 0 auto;
 }
 
 .valuesection h3 {
@@ -250,6 +262,15 @@ body h2 {
 	margin: 5px 0;
 	color: #C00;
 	text-align: left;
+}
+
+.valuesection p {
+	margin: 0 0 0 45px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.4em;
+	color: #222;
 }
 
 a:link {
