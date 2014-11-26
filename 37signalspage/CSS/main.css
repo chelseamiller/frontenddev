@@ -344,7 +344,10 @@ body h2 {
 
 .offeringsection .offeringlinks {
 	margin: auto;
+	margin-top: 30px;
 	text-align: center;
+	display: block;
+
 }
 
 .offeringsection .column1 {
@@ -371,9 +374,50 @@ body h2 {
 
 .offeringsection li {
 	list-style-type: none;
+	margin: auto;
+	text-align: center;
 
 }
 
+
+.offeringsection .offeringlinks h3 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #E8E8E8;
+	font-size: 14px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin: 5px 0;
+	color: #c00;
+	text-align: center;
+}
+
+.offeringlinks .offerheader {
+	font-size: 22px;
+	font-style: normal;
+	color: #222;
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+}
+
+.offeringlinks small {
+	font-size: 12px;
+	color: #666;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.morelinks {
+	margin: auto;
+	margin-top: 40px;
+	clear: both;
+}
+
+.morelinks h3 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #E8E8E8;
+	font-size: 14px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin: 5px 0;
+	color: #c00;
+	text-align: center;
+}
 
 
 a:link {
