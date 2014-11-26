@@ -407,15 +407,29 @@ body h2 {
 	margin: auto;
 	margin-top: 40px;
 	clear: both;
+	margin-bottom: 120px;
 }
 
 .morelinks h3 {
 	padding-bottom: 5px;
-	border-bottom: 1px solid #E8E8E8;
 	font-size: 14px;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	margin: 5px 0;
 	color: #c00;
+	text-align: center;
+}
+
+.morelinks li {
+	line-height: 1.8em;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #369;
+}
+
+footer {
+	font-size: 12px;
+	margin: auto;
+	margin-bottom: 0;
 	text-align: center;
 }
 
