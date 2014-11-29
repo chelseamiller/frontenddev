@@ -28,21 +28,38 @@ nav li {
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
+	color: #b6b6b6;
+	font-size: 48px;
 }
 
 h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
+	color: #b6b6b6;
+	font-size: 36px;
 }
 
 h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
+	color: #b6b6b6;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #b6b6b6;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #545454;	
 }
 
 .intro {
 	border: 2px solid red;
-	height: 300px;
+	height: 350px;
 	padding: 15px;
 	background-color: white;
 	background-image: url("../Images/iphone.png");
@@ -55,22 +72,26 @@ h3 {
 	float: right;
 	text-align: center;
 	margin-right: 25px;
+	margin-bottom: 5px;
 }
 
 .intro h2 {
 	width: 50%;
-	clear: both;
 	float: right;
+	display: inline;
 	text-align: center;
 	margin-right: 25px;
+	padding: 0px;
+	margin-bottom: 5px;
 }
 
 .intro h1 {
 	width: 50%;
-	clear: both;
 	float: right;
+	display: inline;
 	text-align: center;
 	margin-right: 25px;
+	padding: 0px;
 }
 
 .intro h4 {
@@ -83,7 +104,7 @@ h3 {
 
 .whyus {
 	border: 2px solid green;
-	height: 300px;
+	height: 350px;
 	padding: 15px;
 	background-color: white;
 	background-image: url("../Images/stethoscope.jpg");
@@ -95,12 +116,13 @@ h3 {
 .whyus h1 {
 	float: left;
 	display: inline;
-	color: #21699b
+	color: #21699b;
+	margin-bottom: 15px;
 }
 
 .whyus h2 {
 	float: left;
-	margin-right: 5px;
+	margin-right: 10px;
 	display: inline;
 }
 
@@ -110,7 +132,7 @@ h3 {
 	text-align: justify;
 	float: left;
 	margin-left: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 
 }
 
@@ -141,7 +163,7 @@ h3 {
 .howto h1 {
 	float: left;
 	margin-left: 5px;
-	margin-right: 5px;
+	margin-right: 10px;
 }
 
 .howto p {
