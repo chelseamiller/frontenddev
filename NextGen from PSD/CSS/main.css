@@ -67,13 +67,17 @@ h3 {
 
 .whyus p {
 	clear: both;
-	text-align: left;
+	text-align: justify;
+	margin-left: 15px;
+	margin-bottom: 15px;
+
 }
 
 .whyus a {
 	clear: both;
 	text-align: left;
 	float: left;
+	margin-left: 15px;
 }
 
 .howto {
@@ -94,5 +98,6 @@ h3 {
 
 .howto p {
 	clear: both;
-	text-align: center;
+	text-align: justify;
+	margin-left: 25px;
 }
