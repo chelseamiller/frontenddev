@@ -1,0 +1,49 @@
+element.style {
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(to right, #e5e6ea, #e2e3e7);
+}
+
+nav {
+	text-align: center;
+	margin-top: 0px;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin-bottom: 40px;
+}
+
+nav ul {
+	margin-top: 0px;
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+.intro {
+	border: 2px solid red;
+	min-height: 100%;
+	min-width: 100%;
+	background-image: url("Images/iphone.jpg");
+}
+
+.whyus {
+	border: 2px solid green;
+}
+
+.howto {
+	border: 2px solid blue;
+}
