@@ -26,11 +26,18 @@ nav li {
 }
 
 h1 {
-
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 }
 
 h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
 
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 }
 
 .intro {
@@ -38,12 +45,54 @@ h2 {
 	min-height: 100%;
 	min-width: 100%;
 	background-image: url("Images/iphone.jpg");
+	margin-bottom: 40px;
 }
 
 .whyus {
 	border: 2px solid green;
+	height: 200px;
+}
+
+.whyus h1 {
+	float: left;
+	display: inline;
+	color: #21699b
+}
+
+.whyus h2 {
+	float: left;
+	margin-right: 5px;
+	display: inline;
+}
+
+.whyus p {
+	clear: both;
+	text-align: left;
+}
+
+.whyus a {
+	clear: both;
+	text-align: left;
+	float: left;
 }
 
 .howto {
+	margin-top: 40px;
 	border: 2px solid blue;
+}
+
+.howto #howtoicon {
+	float: left;
+	display: inline;
+}
+
+.howto h1 {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.howto p {
+	clear: both;
+	text-align: center;
 }
