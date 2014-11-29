@@ -42,15 +42,54 @@ h3 {
 
 .intro {
 	border: 2px solid red;
-	min-height: 100%;
-	min-width: 100%;
-	background-image: url("Images/iphone.jpg");
+	height: 300px;
+	padding: 15px;
+	background-color: white;
+	background-image: url("../Images/iphone.png");
+	background-repeat: no-repeat;
 	margin-bottom: 40px;
+}
+
+.intro h3 {
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin-right: 25px;
+}
+
+.intro h2 {
+	width: 50%;
+	clear: both;
+	float: right;
+	text-align: center;
+	margin-right: 25px;
+}
+
+.intro h1 {
+	width: 50%;
+	clear: both;
+	float: right;
+	text-align: center;
+	margin-right: 25px;
+}
+
+.intro h4 {
+	clear: both;
+	float: right;
+	width: 50%;
+	text-align: justify;
+	margin-right: 25px;
 }
 
 .whyus {
 	border: 2px solid green;
-	height: 200px;
+	height: 300px;
+	padding: 15px;
+	background-color: white;
+	background-image: url("../Images/stethoscope.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 300px 300px;
 }
 
 .whyus h1 {
@@ -66,11 +105,19 @@ h3 {
 }
 
 .whyus p {
-	clear: both;
+	clear: left;
+	width: 60%;
 	text-align: justify;
+	float: left;
 	margin-left: 15px;
 	margin-bottom: 15px;
 
+}
+
+.whyus #steth {
+	float: right;
+	height: 150px;
+	width: 150px;
 }
 
 .whyus a {
@@ -83,6 +130,7 @@ h3 {
 .howto {
 	margin-top: 40px;
 	border: 2px solid blue;
+	padding: 15px;
 }
 
 .howto #howtoicon {
