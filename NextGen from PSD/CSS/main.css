@@ -90,26 +90,36 @@ p {
 	text-align: center;
 	margin-right: 25px;
 	margin-bottom: 5px;
-	letter-spacing: 1.2px
+	letter-spacing: 1.2px;
+}
+
+.intro .subtitle {
+	width: 50%;
+	float: right;
+	margin-left: 185px;
+	margin-right: -20px;
+	text-align: center;
 }
 
 .intro h2 {
-	width: 50%;
-	float: right;
-	display: inline;
+	float: left;
 	text-align: center;
-	margin-right: 25px;
+	margin-left: 85px;
+	margin-right: -15px;
 	padding: 0px;
 	margin-bottom: 5px;
+	letter-spacing: 1px;
 }
 
 .intro h1 {
-	width: 50%;
-	float: right;
-	display: inline;
+	float: left;
 	text-align: center;
-	margin-right: 25px;
+	margin-left: 25px;
+	margin-right: -15px;
 	padding: 0px;
+	margin-bottom: 5px;
+	vertical-align: top;
+	color: #21699b;
 }
 
 .intro h4 {
@@ -138,6 +148,7 @@ p {
 	display: inline;
 	color: #21699b;
 	margin-bottom: 15px;
+	font-weight: bold;
 }
 
 .whyus h2 {
