@@ -17,12 +17,23 @@ nav {
 	background-color: #f7f7f7;
 	font-family: 'Lato', sans-serif;
 	color: #545454;
+	box-shadow: 5px 5px 2.5px #888888;
 }
 
 nav ul {
 	margin-top: 0px;
 	text-transform: uppercase;
 	width: 90%;
+}
+
+nav a li {
+	text-decoration: none;
+	color: #545454;
+}
+
+nav a li:hover {
+	background-color: #545454;
+	color: #ffffff;
 }
 
 nav li {
@@ -79,6 +90,7 @@ p {
 	text-align: center;
 	margin-right: 25px;
 	margin-bottom: 5px;
+	letter-spacing: 1.2px
 }
 
 .intro h2 {
@@ -106,6 +118,7 @@ p {
 	width: 50%;
 	text-align: justify;
 	margin-right: 25px;
+	letter-spacing: 1px;
 }
 
 .whyus {
