@@ -186,15 +186,22 @@ p {
 	padding: 15px;
 }
 
-.howto #howtoicon {
+.howto .howtoheader {
 	float: left;
-	display: inline;
+	margin-left: -27px;
+}
+
+.howto #howtoicon {
+	display: inline-block;
+	margin-bottom: 10px;
 }
 
 .howto h1 {
-	float: left;
-	margin-left: 5px;
+	display: inline-block;
+	text-align: left;
+	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .howto p {
