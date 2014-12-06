@@ -1,0 +1,249 @@
+
+@media (max-width: 1008px) {
+
+	body {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		background: linear-gradient(to right, #e5e6ea, #e2e3e7);
+	}
+	
+	nav {
+		text-align: center;
+		margin-top: 10px;
+		border-radius: 15px;
+		/* border: 2px solid black; */
+		margin-bottom: 40px;
+		background-color: #f7f7f7;
+		font-family: 'Lato', sans-serif;
+		color: #545454;
+		box-shadow: 0px 16px 12px -12px #888888;
+	}
+	
+	nav ul {
+		margin-top: 0px;
+		text-transform: uppercase;
+		width: 90%;
+	}
+	
+	nav a li {
+		text-decoration: none;
+		color: #545454;
+	}
+	
+	nav a li:hover {
+		background-color: #545454;
+		color: #ffffff;
+	}
+	
+	nav li {
+		display: inline-block;
+		list-style-type: none;
+		padding: 25px;
+	}
+	
+	h1 {
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		color: #b6b6b6;
+		font-size: 42px;
+		margin-top: 22px;
+	}
+	
+	h2 {
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		color: #b6b6b6;
+		font-size: 32px;
+	}
+	
+	h3 {
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		color: #b6b6b6;
+	}
+	
+	h4 {
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		color: gray;
+	}
+	
+	p {
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		color: #545454;	
+	}
+	
+	.intro {
+		/* border: 2px solid red; */
+		height: 550px;
+		padding: 15px;
+		background-color: white;
+		background-image: url("../Images/iphone.jpg");
+		background-size: 200px 200px;
+		background-position: center 140px;
+		background-repeat: no-repeat;
+		margin-bottom: 40px;
+		box-shadow: 0px 4px 3px -3px silver;
+	}
+	
+	.intro h3 {
+		clear: both;
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		letter-spacing: 1.2px;
+	}
+	
+	.intro .subtitle {
+		clear: both;
+		display: inline;
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 0px;
+	}
+	
+	.intro h2 {
+		text-align: center;
+		padding: 0px;
+		margin-bottom: 5px;
+		letter-spacing: 1px;
+		margin-top: 2px;
+	}
+	
+	.intro h1 {
+		text-align: center;
+		padding: 0px;
+		margin-bottom: 5px;
+		vertical-align: top;
+		color: #21699b;
+		margin-top: 0px;
+	}
+	
+	.intro h4 {
+		clear: both;
+		width: 100%;
+		text-align: justify;
+		margin: auto;
+		margin-top: 220px;
+		letter-spacing: 1px;
+	}
+	
+	.whyus {
+		/* border: 2px solid green; */
+		height: 600px;
+		padding: 15px;
+		background-color: white;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 100px 100px;
+		border-radius: 10px;
+		box-shadow: 0px 16px 12px -12px gray;	
+		margin: 0 auto;
+	}
+	
+	.whyus .subtitlewhy {
+		float: none;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 0px;
+	}
+	
+	.whyus h1 {
+		float: none;
+		clear: both;
+		display: block;
+		color: #21699b;
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
+	
+	.whyus h2 {
+		float: none;
+		clear: both;
+		margin-right: 10px;
+		margin-top: 10px;
+		display: block;
+		height: 40px;
+		padding: 0;
+		margin-bottom: 0px;
+	}
+	
+	.whyus p {
+		clear: left;
+		width: 80%;
+		text-align: justify;
+		margin: 0 auto;
+		float: none;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	
+	}
+	
+	.whyus #steth {
+		float: right;
+		height: 150px;
+		width: 150px;
+	}
+	
+	.whyus a {
+		clear: both;
+		text-align: center;
+		float: none;
+		border: 2px solid #f4f4f4;
+		text-decoration: none;
+		border-radius: 6px;
+		background: #21699b;
+		color: #ffffff;
+		font-weight: bold;
+		padding: 5px 8px 6px 8px;
+		font-family: 'Lato', sans-serif;
+	}
+	
+	.whyus a:before {
+		content: ' >';
+		background: #545454;
+		padding: 5px 8px 6px 8px;
+		margin-left: -9px;
+		border-radius: 3px;
+	}
+	
+	.howto {
+		margin-top: 20px;
+		/* border: 2px solid blue; */
+		padding: 15px;
+	}
+	
+	.howto .howtoheader {
+		float: none;
+	}
+	
+	.howto .howtoheader #howtoicon {
+		display: inline-block;
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+	
+	.howto h1 {
+		display: inline-block;
+		text-align: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	
+	.howto p {
+		clear: both;
+		width: 80%;
+		text-align: justify;
+	}	
+}
