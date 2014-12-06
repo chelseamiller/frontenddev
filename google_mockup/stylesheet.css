@@ -1,7 +1,7 @@
+
 body {
 	margin: 0px;
 }
-
 
 a {
 	color: black;
@@ -93,24 +93,17 @@ ul.buttons li:hover {
 .footer ul li {
 	display: inline;
 	margin-bottom: 0px;
-	font-size: 13px;
 	font-family: Arial;
 	color: #666;
 	letter-spacing: 0.1px;
-	padding: 10px;
 }
 
 #leftfooter {
-	float: left;
 	margin-bottom: 10px;
 }
 
 #rightfooter {
-	float: right;
 	margin-bottom: 10px;
-	margin-left: -10px;
-	margin-right: 30px;
-	text-align: right;
 }
 
 div#sitebottom {
@@ -120,3 +113,44 @@ div#sitebottom {
 	width: 100%;
 	position: fixed;
 }
+
+body {
+width: 100%;
+}
+
+
+#searchbar {
+	width: 80%;
+}
+
+
+.footer ul li {
+	display: inline;
+	margin-bottom: 0px;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	font-size: 12px;
+	font-family: Arial;
+	color: green;
+	letter-spacing: 0.1px;
+	padding: 10px;
+}
+
+#rightfooter {
+	text-align: center;
+	display: block;
+	float: none;
+	width: 100%;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+}
+
+#leftfooter {
+	display: block;
+	text-align: center;
+	float: none;
+	width: 100%;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+}
+
