@@ -134,6 +134,7 @@ p {
 	text-align: justify;
 	margin-right: 25px;
 	letter-spacing: 1px;
+	position: static;
 }
 
 .whyus {

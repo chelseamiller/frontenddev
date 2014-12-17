@@ -77,8 +77,8 @@
 	
 	.intro {
 		/* border: 2px solid red; */
-		height: 550px;
 		padding: 15px;
+		float: none;
 		background-color: white;
 		background-image: url("../Images/iphone.jpg");
 		background-size: 200px 200px;
@@ -86,6 +86,8 @@
 		background-repeat: no-repeat;
 		margin-bottom: 40px;
 		box-shadow: 0px 4px 3px -3px silver;
+		height: 570px;
+		position: relative;
 	}
 	
 	.intro h3 {
@@ -97,33 +99,41 @@
 		margin-top: 10px;
 		margin-bottom: 20px;
 		letter-spacing: 1.2px;
+		height: auto;
 	}
 	
 	.intro .subtitle {
 		clear: both;
-		display: inline;
+		display: inline-block;
+		width: 70%;
 		float: none;
-		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 		margin-top: 0px;
+		height: auto;
 	}
 	
 	.intro h2 {
 		text-align: center;
-		padding: 0px;
+		padding-right: 5px;
+		margin-left: 0;
+		margin-right: 0;
 		margin-bottom: 5px;
 		letter-spacing: 1px;
 		margin-top: 2px;
+		height: auto;
 	}
 	
 	.intro h1 {
 		text-align: center;
 		padding: 0px;
+		margin-left: 0;
+		margin-right: 0;
 		margin-bottom: 5px;
 		vertical-align: top;
 		color: #21699b;
 		margin-top: 0px;
+		height: auto;
 	}
 	
 	.intro h4 {
@@ -133,6 +143,12 @@
 		margin: auto;
 		margin-top: 220px;
 		letter-spacing: 1px;
+		/* position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		height: auto; */
 	}
 	
 	.whyus {
