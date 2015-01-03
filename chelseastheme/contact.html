@@ -9,21 +9,23 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Chelsea Miller's Bootstrap Theme</title>
+    <title>Chelsea Miller's Bootstrap Theme for Financial Institutions</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/indexstyle.css" rel="stylesheet">
+    <link href="css/content.css" rel="stylesheet">
+    <link href="css/contactcss.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- jQuery -->
-
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
 
 </head>
 
@@ -46,11 +48,11 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav nav-tabs nav-justified">
-            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
             <li><a href="content.html">Investment Management</a></li>
             <li><a href="content.html">Financial Advisors</a></li>
             <li><a href="content.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
             <li><a href="content.html">Resources</a></li>
         </ul>
     </div>
@@ -60,52 +62,42 @@
 </header>
 
 <!-- bodycontent -->
-<div class="container-fluid text-vertical-center" id="bodycontent">
-    <div class="row text-center">
-        <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <h1>Investments that stand the test of time.</h1>
-                        <h4>Put some sort of catchy secondary headline that sounds super smooth and polished, yet like you're not trying to be.  Put some fluff about integrity so you don't seem like the next Enron.</h4>
-                    </div>
-                </div>
-        </div>
-    </div>
+
+<div class="container">
+	<div class="row">
+		<h2 class="col-md-6 col-lg-6 visible-md visible-lg">
+			We are committed to helping you become filthy freaking rich, as long as you make us richer in return.  Simply fill out this form with your information, and within 6 months, you'll be driving your brand new midlife crisis car!
+		</h2>
+		<h2 class="col-sm-12 hidden-md hidden-lg">
+			Please contact us and we will promptly get in touch with you for a consultation.
+		</h2>
+		<form class="col-lg-6 col-md-6 col-sm-12">
+			  <div class="form-group">
+			  	<label for="exampleInputName">Full Name</label>
+			  	<input type="text" class="form-control" id="exampleInputName" placeholder="Your Full Name">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">Relevant Files</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Attach income statements, stock documents, anything that makes us see dollar signs.</p>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox">I halfassed skimmed the terms & 'agree' to them because it's the only way I can submit this.
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+		</form>
+	</div>
 </div>
-
-<br>
-
-<div class="container-fluid" id="coolthumbs">
-    <div class="row">
-        <div class="col-sm-4 col-md-4">
-            <div class="thumbnail">
-            <h3>Experience</h3>
-            <span class="glyphicon glyphicon-globe"></span>
-            <p>Lorem ipsum add some kind of snippet or whatnot here.</p>
-            <p><a href="content.html" class="btn btn-primary" role="button">Learn More</a></p>
-            </div>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-            <div class="thumbnail">
-            <h3>Mutual Trust</h3>
-            <span class="glyphicon glyphicon-tree-conifer"></span>
-            <p>Lorem ipsum add some kind of snippet or whatnot here.</p>
-            <p><a href="content.html" class="btn btn-primary" role="button">Learn More</a></p>
-            </div>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-            <div class="thumbnail">
-            <h3>Honest Results</h3>
-            <span class="glyphicon glyphicon-stats"></span>
-            <p>And yet another lorem ipsum space for some text here.</p>
-            <p><a href="content.html" class="btn btn-primary" role="button">Learn More</a></p>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 
 <!-- Footer -->

@@ -51,7 +51,7 @@
             <li class="active"><a href="content.html">Investment Management</a></li>
             <li><a href="content.html">Financial Advisors</a></li>
             <li><a href="content.html">About Us</a></li>
-            <li><a href="content.html">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li><a href="content.html">Resources</a></li>
         </ul>
     </div>
@@ -116,17 +116,17 @@
         $(document).ready(function(){
           $("#button1").click(function(){
             var testimonial1=$("#testimonial1");
-            testimonial1.show();  
+            testimonial1.toggle();  
             testimonial1.animate({fontSize:'1.3em'},"slow");
           });
             $("#button2").click(function(){
             var testimonial2=$("#testimonial2");
-            testimonial2.show();  
+            testimonial2.toggle();  
             testimonial2.animate({fontSize:'1.3em'},"slow");
           });
             $("#button3").click(function(){
             var testimonial3=$("#testimonial3");
-            testimonial3.show();  
+            testimonial3.toggle();  
             testimonial3.animate({fontSize:'1.3em'},"slow");
           });
         });
