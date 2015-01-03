@@ -15,19 +15,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/indexstyle.css" rel="stylesheet">
     <link href="css/content.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- jQuery -->
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 
 
@@ -46,7 +41,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Alvarado Management</a>
+            <a class="navbar-brand" href="index.html">Alvarado Partners</a>
         </div>
     </div>
 
@@ -86,18 +81,19 @@
 </div>
 
 <section class="testim">
-    <button class="btn btn-lg btn-primary" id="button1">Why Diversification?</button>
-    <div id="testimonial1"><p>You can't put all your eggs in one basket. What if you put your life savings into stock in VCRs?</p></div>
-</section>
-
-<section class="testim">
-    <button class="btn btn-lg btn-primary" id="button2">Why Value Investments?</button>
-    <div id="testimonial2"><p>Because you don't want to invest in crap. Or you could. If it was marketed as fertilizer, I suppose.</p></div>
-</section>
-
-<section class="testim">
-    <button class="btn btn-lg btn-primary" id="button3">Why 100% Integrity?</button>
-    <div id="testimonial3"><p>Because none of us particularly want to be roommates with Bubba.</p></div>
+    <h1>What's behind our effective investment approach?</h1>
+    <div class="col-md-4 col-sm-12">
+        <button class="btn btn-lg btn-primary" id="button1">Why Diversification?</button>
+        <div id="testimonial1"><p>You can't put all your eggs in one basket. What if you put your life savings into stock in VCRs?</p></div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+        <button class="btn btn-lg btn-primary" id="button2">Why Value Investments?</button>
+        <div id="testimonial2"><p>Because you don't want to invest in crap. Or you could. If it was marketed as fertilizer, I suppose.</p></div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+        <button class="btn btn-lg btn-primary" id="button3">Why 100% Integrity?</button>
+        <div id="testimonial3"><p>Because none of us particularly want to be roommates with Bubba.</p></div>
+    </div>
 </section>
 
 <!-- Footer -->
@@ -121,40 +117,26 @@
           $("#button1").click(function(){
             var testimonial1=$("#testimonial1");
             testimonial1.show();  
-            testimonial1.animate({fontSize:'1.5em'},"slow");
+            testimonial1.animate({fontSize:'1.3em'},"slow");
           });
             $("#button2").click(function(){
             var testimonial2=$("#testimonial2");
             testimonial2.show();  
-            testimonial2.animate({fontSize:'1.5em'},"slow");
+            testimonial2.animate({fontSize:'1.3em'},"slow");
           });
             $("#button3").click(function(){
             var testimonial3=$("#testimonial3");
             testimonial3.show();  
-            testimonial3.animate({fontSize:'1.5em'},"slow");
+            testimonial3.animate({fontSize:'1.3em'},"slow");
           });
         });
         </script>
 
-<!-- <script>
-var p = $( "p:first" );
-var position = p.position();
-$( "p:last" ).text( "left: " + position.left + ", top: " + position.top );
-</script> -->
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-<!-- <script>$(document).ready(function(){
-  $('h1').css({ 'width':'100%', 'text-align':'center' });
-  var h1 = $('h1').height();
-  var h = h1/2;
-  var w1 = $(window).height();
-  var w = w1/2;
-  var m = w - h
-  $('h1').css("margin-top",m + "px")
-});
-</script> -->
 
 
 </html>

@@ -1,0 +1,164 @@
+
+
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-image: url("../img/splash.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+#bodycontent {
+    padding-top: 60px;
+    background-color:rgba(216,209,209,0.7);
+    background-position: center;
+    width: 100%;
+    margin-top: 160px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: top;
+}
+
+#bodycontent h1 {
+  position: relative;
+  margin-bottom: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  vertical-align: top;
+}
+
+#bodycontent p {
+  position: relative;
+  margin-bottom: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  vertical-align: top;
+}
+
+#coolthumbs {
+    margin: 0 auto;
+}
+
+.thumbnail {
+    background:rgba(216,209,209,0.9);
+    background-color:rgba(216,209,209,0.9);
+    border: none;
+    text-align: center;
+}
+
+.thumbnail h3 {
+    text-align: center;
+}
+
+.thumbnail .btn {
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: justify;
+    width: 100%;
+}
+
+.navbar-default .navbar-brand {
+    font-weight: 500;
+    font-color: #bdc3c7;
+    font-family: serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav a {
+    color: #2f4f4f;
+    font-weight: 550;
+}
+
+.nav>li>a {
+    padding: 10px 7px;
+}
+
+@media (min-width: 768px) {
+    .nav-tabs.nav-justified>li>a {
+    border-bottom: none;
+}
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: center;
+    }
+}
+
+/* Content */
+/* .pagecontent {
+    background-color: gray;
+    opacity: 0.7;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    display: inline;
+}
+
+.pagecontent h1 {
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: inline;
+} */
+
+/* Footer */
+
+footer {
+    padding: 0px;
+    background-color: gray;
+    font-size: 11px;
+    vertical-align: center;
+    margin-bottom: 90px;
+}
+
+footer .nav-justified > li > a {
+    padding: 0;
+    padding-top: 3px;
+}
+
+footer .navbar {
+    min-height: 10px;
+    padding-bottom: 5px;
+}
