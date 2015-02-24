@@ -1,0 +1,336 @@
+body {
+	background-image: url(water.jpg);
+}
+
+h1 {
+	font-family: Impact;
+	font-size: 78px;
+	letter-spacing: 4px;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+}
+
+#seagull {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -150px;
+    margin-left: 700px;
+    position: relative;
+    z-index: 1000;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: gdaymate;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: gdaymate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes gdaymate {
+    0%   {right:0px; top:0px;}
+    25%  {right:1300px; top:0px;}
+    50%  {right:-1300px; top:200px;}
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes gdaymate {
+    0%   {right:0px; top:0px;}
+    25%  {right:500px; top:0px;}
+    50%  {right:500px; top:200px;}
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px;}
+}
+
+#eel {
+	/* specs */
+	background: url(eel.png) no-repeat;
+    width: 150px;
+    height: 115px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -170px;
+    margin-left: 100px;
+    opacity: 0.7;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+    /* Constant movement */
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: eel;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: eel;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes eel {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes eel {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+#eel:hover {
+    width: 150px;
+    height: 115px;
+    background: url(eel.png) no-repeat;
+
+
+    /* Hover movement */
+    -webkit-transform: translate(540px,-200px);
+    -moz-transform: translate(540px,-200px);
+    -o-transform: translate(540px,-200px);
+    -ms-transform: translate(540px,-200px);
+    transform: translate(540px,-200px);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: eelhover;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: eelhover;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes eelhover {
+    0%   {background:url(eel.png) no-repeat;}
+    25%  {background:url(eel.png) no-repeat;}
+    50%  {background:url(eel.png) no-repeat;}
+    75%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat;}
+    100% {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius:50px;}
+}
+
+/* Standard syntax */
+@keyframes eelhover {
+    0%   {background:url(eel.png) no-repeat;}
+    25%  {background:url(eel.png) no-repeat;}
+    50%  {background:url(eel.png) no-repeat;}
+    75%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat;}
+    100% {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius: 50px;}
+}
+
+#shrimp {
+	/* specs */
+	background: url(shrimp.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 600px;
+    opacity: 0.7;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+    /* Constant movement */
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: shrimp;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: shrimp;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shrimp {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes shrimp {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+#shrimp:hover {
+    width: 150px;
+    height: 150px;
+    background: url(shrimp.png) no-repeat;
+
+
+    /* Hover movement */
+    -webkit-transform: translate(40px,-350px);
+    -moz-transform: translate(40px,-350px);
+    -o-transform: translate(40px,-350px);
+    -ms-transform: translate(40px,-350px);
+    transform: translate(40px,-350px);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: shrimphover;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: shrimphover;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shrimphover {
+    0%   {background:url(shrimp.png) no-repeat;}
+    25%  {background:url(shrimp.png) no-repeat;}
+    50%  {background:url(shrimp.png) no-repeat;}
+    75%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat;}
+    100% {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius:50px;}
+}
+
+/* Standard syntax */
+@keyframes shrimphover {
+    0%   {background:url(shrimp.png) no-repeat;}
+    25%  {background:url(shrimp.png) no-repeat;}
+    50%  {background:url(shrimp.png) no-repeat;}
+    75%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat;}
+    100% {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius: 50px;}
+}
+
+#tuna {
+	/* specs */
+	background: url(tuna.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 330px;
+    margin-left: 750px;
+    opacity: 0.7;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+    /* Constant movement */
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: tuna;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: tuna;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes tuna {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes tuna {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+#tuna:hover {
+    width: 150px;
+    height: 150px;
+    background: url(tuna.png) no-repeat;
+
+
+    /* Hover movement */
+    -webkit-transform: translate(-540px,-320px);
+    -moz-transform: translate(-540px,-320px);
+    -o-transform: translate(-540px,-320px);
+    -ms-transform: translate(-540px,-320px);
+    transform: translate(-540px,-320px);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: tunahover;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: tunahover;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes tunahover {
+    0%   {background:url(tuna.png) no-repeat;}
+    25%  {background:url(tuna.png) no-repeat;}
+    50%  {background:url(tuna.png) no-repeat;}
+    75%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat;}
+    100% {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-radius:50px;}
+}
+
+/* Standard syntax */
+@keyframes shrimphover {
+    0%   {background:url(tuna.png) no-repeat;}
+    25%  {background:url(tuna.png) no-repeat;}
+    50%  {background:url(tuna.png) no-repeat;}
+    75%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat;}
+    100% {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-radius: 50px;}
+}
