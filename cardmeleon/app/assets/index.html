@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cardmeleon</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+</head>
+<body>
+<div class="about">
+    <section class="intro">
+        <h1 class="introtoggler">Cardm<h1 class="introtoggler" id="match">e</h1><h1 class="introtoggler">l</h1><h1 class="introtoggler" id="match">e</h1><h1 class="introtoggler">on</h1></h1>
+        <h6 class="introtoggler" id="howtoplay"></h6>
+        <h6 class="toggled" id="introtoggle">
+            <ul>
+                <li>Match each card to the face card by common factors</li>
+                <li>Except for 1 and 2</li>
+                <li>If no cards in your hand can be played, draw a card.</li>
+                <li>Try to remove your hand before the deck runs out</li>
+            </ul>
+
+    </section>
+</div>
+
+
+<section class="thegame">
+
+
+    <h2 id="mydeck"></h2>
+    <h2 id="facecard"></h2>
+
+    <div class="haha">
+        <input type="button" id="startgame" value="Start Game"/>
+        <input type="button" id="drawcard" value="Draw a card"/>
+    </div>
+
+    <h2 id="gamemessage"></h2>
+
+    <h2 id="myhand"></h2>
+</section>
+
+<script src="javascripts/vendor.js"></script>
+<script src="javascripts/app.js"></script>
+</body>
+</html>

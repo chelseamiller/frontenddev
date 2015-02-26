@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chelsea Miller's Bootstrap Theme for Financial Institutions</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/indexstyle.css" rel="stylesheet">
+    <link href="css/content.css" rel="stylesheet">
+    <link href="css/contactcss.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+<!-- Header navbar -->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Alvarado Partners</a>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav nav-tabs nav-justified">
+            <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="content.html">Investment Management</a></li>
+            <li><a href="content.html">Financial Advisors</a></li>
+            <li><a href="content.html">About Us</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+            <li><a href="content.html">Resources</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+</header>
+
+<!-- bodycontent -->
+
+<div class="container">
+	<div class="row">
+		<h2 class="col-md-6 col-lg-6 visible-md visible-lg">
+			We are committed to helping you become filthy freaking rich, as long as you make us richer in return.  Simply fill out this form with your information, and within 6 months, you'll be driving your brand new midlife crisis car!
+		</h2>
+		<h2 class="col-sm-12 hidden-md hidden-lg">
+			Please contact us and we will promptly get in touch with you for a consultation.
+		</h2>
+		<form class="col-lg-6 col-md-6 col-sm-12">
+			  <div class="form-group">
+			  	<label for="exampleInputName"><a href="#" id="nametrigger">Full Name</a></label>
+			  	<input type="text" class="form-control" id="exampleInputName" placeholder="Your Full Name">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1" id="email-trigger">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1" id="password-trigger">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile" id="files-trigger">Relevant Files</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Attach income statements, stock documents, anything that makes us see dollar signs.</p>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox">I at least halfassed skimmed the terms & 'agree' to them because it's the only way I can submit this.
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+		</form>
+	</div>
+</div>
+
+<!-- On-hover popup -->
+
+<div class="namehover">
+    <h3>Explanation of Name Required</h3>
+    <p>We want to make sure you're not Charles Manson. We hear he's a bit difficult to work with.</p>
+</div>
+<div class="emailhover">
+    <h3>Explanation of Email Required</h3>
+    <p>What, you expect us to reach you via telepathy?</p>
+</div>
+<div class="passwordhover">
+    <h3>Explanation of Password Required</h3>
+    <p>Unless you want Bobo the Hobo across the street to access your banking information</p>
+</div>
+<div class="fileshover">
+    <h3>Explanation of Files Required</h3>
+    <p>To prove you're not gonna waste our time making us manage your 4 year old's piggy bank</p>
+</div>
+
+
+
+<!-- Footer -->
+<footer>
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <ul class="nav nav-tabs nav-justified">
+            <li><a href="">Home</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </nav>
+</footer>
+</body>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+        <script>
+
+        $(document).ready(function(){
+            $("a#nametrigger").click(function() {
+                $(".namehover").css("background-color","black").toggle();
+            });
+        });
+
+        </script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</html>

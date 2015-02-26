@@ -1,0 +1,77 @@
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: white;
+    background-color: white;
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 150px;
+	position: relative;
+	width: 90%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.container img {
+	display: inline-block;
+	width: auto;
+	min-width: 50%;
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 0.7;
+	border-radius: 25px;
+}
+
+.container p {
+	text-align: left;
+}
+
+.container li {
+	text-align: left;
+}
+
+.testim {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.testim h1 {
+	margin-bottom: 20px;
+}
+
+button {
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+#testimonial1 {
+	position: relative;
+	display: none;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+#testimonial2 {
+	position: relative;
+	display: none;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+#testimonial3 {
+	position: relative;
+	display: none;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.colorred {
+	font-weight: bold;
+	font-style: italic;
+}
