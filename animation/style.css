@@ -1,6 +1,41 @@
-body {
+.ocean {
+    width: 100%;
+    height: 100%;
 	background-image: url(water.jpg);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: ocean;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: ocean;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ocean {
+    0%   {right:0px; top:0px;}
+    25%  {right:20px; top:0px;}
+    50%  {right:-20px; top:15px;}
+    75%  {right:0px; top:15px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes ocean {
+    0%   {right:0px; top:0px;}
+    25%  {right:20px; top:0px;}
+    50%  {right:-20px; top:15px;}
+    75%  {right:0px; top:15px;}
+    100% {right:0px; top:0px;}
+}
+
 
 h1 {
 	font-family: Impact;
@@ -38,8 +73,8 @@ h1 {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes gdaymate {
     0%   {right:0px; top:0px;}
-    25%  {right:1300px; top:0px;}
-    50%  {right:-1300px; top:200px;}
+    25%  {right:-700px; top:0px;}
+    50%  {right:-700px; top:200px;}
     75%  {right:0px; top:200px;}
     100% {right:0px; top:0px;}
 }
@@ -60,7 +95,7 @@ h1 {
     height: 115px;
     margin: 0 auto;
     position: relative;
-    margin-top: -170px;
+    margin-top: -120px;
     margin-left: 100px;
     opacity: 0.7;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
@@ -115,14 +150,14 @@ h1 {
     transform: translate(540px,-200px);
     /* Chrome, Safari, Opera */
     -webkit-animation-name: eelhover;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-play-state: running;
     /* Standard syntax */
     animation-name: eelhover;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-timing-function: linear;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -133,8 +168,8 @@ h1 {
 @-webkit-keyframes eelhover {
     0%   {background:url(eel.png) no-repeat;}
     25%  {background:url(eel.png) no-repeat;}
-    50%  {background:url(eel.png) no-repeat;}
-    75%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat;}
+    30%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius:50px;}
+    60%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius:50px;}
     100% {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius:50px;}
 }
 
@@ -142,8 +177,8 @@ h1 {
 @keyframes eelhover {
     0%   {background:url(eel.png) no-repeat;}
     25%  {background:url(eel.png) no-repeat;}
-    50%  {background:url(eel.png) no-repeat;}
-    75%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat;}
+    30%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius:50px;}
+    60%  {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius:50px;}
     100% {width:350px; height:300px; background:url(eelsushified.jpg) no-repeat; border-radius: 50px;}
 }
 
@@ -209,14 +244,14 @@ h1 {
     transform: translate(40px,-350px);
     /* Chrome, Safari, Opera */
     -webkit-animation-name: shrimphover;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-play-state: running;
     /* Standard syntax */
     animation-name: shrimphover;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-timing-function: linear;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -227,8 +262,8 @@ h1 {
 @-webkit-keyframes shrimphover {
     0%   {background:url(shrimp.png) no-repeat;}
     25%  {background:url(shrimp.png) no-repeat;}
-    50%  {background:url(shrimp.png) no-repeat;}
-    75%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat;}
+    30%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius: 50px;}
+    60%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius: 50px;}
     100% {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius:50px;}
 }
 
@@ -236,8 +271,8 @@ h1 {
 @keyframes shrimphover {
     0%   {background:url(shrimp.png) no-repeat;}
     25%  {background:url(shrimp.png) no-repeat;}
-    50%  {background:url(shrimp.png) no-repeat;}
-    75%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat;}
+    30%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius: 50px;}
+    60%  {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius: 50px;}
     100% {width:200px; height:200px; background:url(shrimpsushified.png) no-repeat; border-radius: 50px;}
 }
 
@@ -249,7 +284,7 @@ h1 {
     margin: 0 auto;
     position: relative;
     margin-top: 330px;
-    margin-left: 750px;
+    margin-left: 770px;
     opacity: 0.7;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 2s, transform 2s;
@@ -303,14 +338,14 @@ h1 {
     transform: translate(-540px,-320px);
     /* Chrome, Safari, Opera */
     -webkit-animation-name: tunahover;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-play-state: running;
     /* Standard syntax */
     animation-name: tunahover;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-timing-function: linear;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -321,16 +356,111 @@ h1 {
 @-webkit-keyframes tunahover {
     0%   {background:url(tuna.png) no-repeat;}
     25%  {background:url(tuna.png) no-repeat;}
-    50%  {background:url(tuna.png) no-repeat;}
-    75%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat;}
-    100% {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-radius:50px;}
+    30%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-right: 50px;}
+    60%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-right: 50px;}
+    100% {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-radius: 50px;}
 }
 
 /* Standard syntax */
-@keyframes shrimphover {
+@keyframes tunahover {
     0%   {background:url(tuna.png) no-repeat;}
     25%  {background:url(tuna.png) no-repeat;}
-    50%  {background:url(tuna.png) no-repeat;}
-    75%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat;}
+    30%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-right: 50px;}
+    60%  {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-right: 50px;}
     100% {width:200px; height:200px; background:url(tunasushified.png) no-repeat; border-radius: 50px;}
+}
+
+
+#octopus {
+    /* specs */
+    background: url(octopus.png) no-repeat;
+    width: 87px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -220px;
+    margin-left: 900px;
+    opacity: 0.7;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+    /* Constant movement */
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: octopus;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: octopus;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes octopus {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes octopus {
+    0%   {right:0px; top:0px;}
+    25%  {right:-50px; top:0px;}
+    50%  {right:-50px; top:-10px;}
+    75%  {right:0px; top:-20px;}
+    100% {right:0px; top:0px;}
+}
+
+#octopus:active {
+    width: 87px;
+    height: 200px;
+    background: url(octopus.png) no-repeat;
+
+
+    /* Hover movement */
+    -webkit-transform: translate(-840px,-320px);
+    -moz-transform: translate(-840px,-320px);
+    -o-transform: translate(-840px,-320px);
+    -ms-transform: translate(-840px,-320px);
+    transform: translate(-840px,-320px);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: octopusactive;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: cubic-bezier(0.99,0.99,0.58,1);
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: octopusactive;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.99,0.99,0.58,1);
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes octopusactive {
+    0%   {background:url(octopus.png) no-repeat;}
+    25%  {background:url(octopus.png) no-repeat;}
+    30%  {width:400px; height:300px; background:url(octopussushified.jpg) no-repeat; border-right: 50px;}
+    60%  {width:400px; height:300px; background:url(octopussushified.jpg) no-repeat; border-right: 50px;}
+    100% {width:400px; height:300px; background:url(octopussushified.jpg) no-repeat; border-radius: 50px;}
+}
+
+/* Standard syntax */
+@keyframes octopusactive {
+    0%   {background:url(octopus.png) no-repeat;}
+    25%  {background:url(octopus.png) no-repeat;}
+    30%  {width:400px; height:300px; background:url(octopussushified.jpg) no-repeat; border-right: 50px;}
+    60%  {width:400px; height:300px; background:url(octopussushified.jpg) no-repeat; border-right: 50px;}
+    100% {width:400px; height:300px; background:url(octopussushified.jpg) no-repeat; border-radius: 50px;}
 }
