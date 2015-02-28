@@ -1,0 +1,280 @@
+body {
+	background: #c0392b;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2, #profilehello {
+	color: #ecf0f1;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a:hover, a:active, a:visited {
+	color: #2980b9;
+}
+
+#welcome {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.thumbnail {
+    background:rgba(216,209,209,0.9);
+    background-color:rgba(216,209,209,0.9);
+    border: none;
+    text-align: center;
+}
+
+/* Header */
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#headernav {
+	background-color: #c0392b;
+	border: none;
+	color: yellow;
+}
+
+.dropdown-toggle #headertoggle {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	border-radius: 9px 0px 9px 9px;
+	background-color: #e7e7e7;
+	margin-top: -1px;
+	border: 0px;
+}
+
+.navbar-default .navbar-nav>.open>a {
+	border-radius: 9px 9px 0px 9px;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #777;
+		background: #e7e7e7;
+		border-radius: 9px;
+		margin-top: 0px;
+		text-align: center;
+		letter-spacing: 2px;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 767px) {
+.navbar-nav .open .dropdown-menu {
+		background-color: #e7e7e7;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+}
+
+
+
+/* Footer */
+
+footer {
+    padding: 0px;
+    background-color: #2980b9;
+    color: black;
+    font-size: 11px;
+    vertical-align: center;
+    margin-bottom: 90px;
+    border: none;
+}
+
+footer .nav-justified > li > a {
+    padding: 0;
+    padding-top: 3px;
+    border: none;
+}
+
+footer .navbar {
+    min-height: 10px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+footer .navbar-default {
+	background: #2980b9;
+	color: black;
+	border: #2980b9;
+}
+
+a {
+	text-decoration: none;
+	border: none;
+}
+
+.nav-tabs.nav-justified>li>a {
+	border: none;
+	color: white;
+}
+
+.nav-tabs.nav-justified>li>a:hover {
+	border: none;
+	color: #2980b9;
+}
+
+
+#signupform {
+	background-color: white;
+	border-radius: 8px;
+	z-index: 1000;
+	padding: 15px;
+	margin-bottom: 100px;
+}
+
+#selectwant, #selectoffer {
+	display: block;
+	width: 100%;	
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	margin: 6px;	
+}
+.btn-lg {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#homewelcome {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#map_canvas {
+	margin: 0 auto;
+	height: 260px;
+	text-align: center;
+	/* border: 10px solid #2980b9; */
+	border-radius: 9px;
+	margin-bottom: 10px;
+}
+
+#postings {
+	margin-bottom: 0px;
+	margin: 0 auto;
+}
+
+#postings h2 {
+	margin-top: -20px;
+}
+
+#postings p {
+	text-align: justify;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#postings a {
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+#postings #postingmore {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.form-control {
+	color: black;
+	border: 2px solid #bdc3c7;
+}
+
+.postform {
+	background: white;
+	opacity: 1;
+	border-radius: 8px;
+	padding: 12px;
+	margin-bottom: 35px;
+}
+.postform label {
+	text-align: left;
+	color: black;
+}
+
+.postform .help-block {
+	color: black;
+}
+
+/* PROFILE */
+
+.profileintro {
+	margin-left: 50px;
+	margin-right: -10px;
+	margin-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+  .profileintro {
+  	margin-left: 0;
+  }
+}
+
+#profilehello {
+	margin-bottom: 50px;
+}
+
+.profileintro #userpic {
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+#profiledetails p, #profiledetails a {
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 18px;
+}
+
+#profiledetails a {
+	color: white;
+}
+
+#connectbutton {
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* ORDER HISTORY */
+
+#orders {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  #orders {
+  	width: 90%;
+  }
+}

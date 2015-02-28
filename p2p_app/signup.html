@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Feastbook.</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chelsea's Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dropdown-enhancement.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- jQuery -->
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>	
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/dropdown-enhancement.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" id="headernav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">feastbook</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">navigate <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          	<li><a href="signup.html">Sign Up</a></li>
+            <li><a href="editsettings.html">Edit Settings</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="orderhistory.html">Order History</a></li>
+            <li class="divider"></li>
+            <li><a href="home.html">Home</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<h1 class="success">become a feaster in 2 minutes or less</h1>
+	<img id="welcome" src="img/feast.jpg" class="img-circle"/>
+
+<!-- START OF CUSTOM CONTENT -->
+
+<div class="container" id="signupform">
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<form>
+			  <div class="form-group">
+			  	<label for="exampleInputName">Nickname</label>
+			  	<input type="text" class="form-control" id="exampleInputName" placeholder="Your Full Name">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1" id="email-trigger">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1" id="password-trigger">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1" id="password-trigger">Confirm Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+		      <div class="form-group">
+		          <label for="exampleInputCity">City:</label>
+		          <input type="text" class="form-control" name="city" value="" />
+		      </div>
+		      <div class="form-group">
+		          <label for="exampleInputState">State:</label>
+		          <input type="text" class="form-control" name="state" maxlength="2" value="" />
+		      </div>
+		      <div class="form-group">
+		          <label for="exampleInputZip">Zip:</label>
+		          <input type="text" class="form-control" name="zip" maxlength="5" value="" />
+		      </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile" id="files-trigger">Relevant Files</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Attach profile photo or avatar (optional)</p>
+			  </div>
+	</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12">
+
+
+        	  <br>
+	  
+        	  <div class="form-group">
+        	      <label for="exampleAboutMe">About you and how you'd like to connect with your neighbors:</label>
+        	      <textarea name="aboutme" class="form-control" rows=3 cols=30></textarea>
+        	  </div>
+	  
+        	  <div class="form-group">
+        	      <label for="exampleSocialMedia">Social Media Profile(s) (optional but helpful):</label> 
+        	      <textarea name="socialmedia" class="form-control" rows=3 cols=30></textarea>
+        	  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox">I at least halfassed skimmed the terms and 'agree' to them because it's the only way I can submit this.
+			    </label>
+			  </div>
+
+        	  <div class="btn-group">
+        	  	<label for="exampleOffer">Which dishes would you offer?</label>
+        	  	<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" id="selectoffer">Dishes you'd like to offer<span class="caret"></span>
+        	  	</button>
+        	  	<ul class="dropdown-menu dropdown-toggle">
+        	  		<li>
+        	  			<input type="radio" id="europeanO" name="European_Offer" value="European">
+        	  			<label for="europeanO">European</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="asianO" name="Asian_Offer" value="Asian">
+        	  			<label for="asianO">Asian</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="dessertsO" name="Desserts_Offer" value="Desserts">
+        	  			<label for="dessertsO">Desserts</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="veggieO" name="Veggie_Offer" value="Veggie">
+        	  			<label for="veggieO">Veggie Friendly</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="latinO" name="Latin_Offer" value="Latin">
+        	  			<label for="latinO">Latin</label>
+        	  		</li>
+        	  	</ul>
+        	  </div>
+	  
+        	  <div class="btn-group">
+              <label for="exampleWant">Which dishes would you like to try?</label>
+        	  	<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" id="selectwant">Dishes you'd like to try<span class="caret"></span>
+        	  	</button>
+        	  	<ul class="dropdown-menu">
+        	  		<li>
+        	  			<input type="radio" id="European" name="European_Want" value="European">
+        	  			<label for="European">European</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="Asian" name="Asian_Want" value="Asian">
+        	  			<label for="Asian">Asian</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="Desserts" name="Desserts_Want" value="Desserts">
+        	  			<label for="Desserts">Desserts</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="Veggie" name="Veggie_Want" value="Veggie">
+        	  			<label for="Veggie">Veggie Friendly</label>
+        	  		</li>
+        	  		<li>
+        	  			<input type="radio" id="Latin" name="Latin_Want" value="Latin">
+        	  			<label for="Latin">Latin</label>
+        	  		</li>
+        	  	</ul>
+        	  </div>
+
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox">I at least halfassed skimmed the terms and 'agree' to them because it's the only way I can submit this.
+			    </label>
+			  </div>
+
+
+			  <button type="submit" class="btn btn-lg btn-primary" id="settingsubmit">Submit</button>
+		</form>
+	</div>
+</div>
+
+<!-- END OF PAGE CONTENT -->
+
+
+	<!-- Le footer -->
+	<footer>
+	    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+	      <div class="container-fluid">
+	        <ul class="nav nav-tabs nav-justified">
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="">Privacy Policy</a></li>
+	            <li><a href="">Terms & Conditions</a></li>
+	        </ul>
+	      </div>
+	    </nav>
+	</footer>
+	</body>
+
+
+</body>
+</html>
