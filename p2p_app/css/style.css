@@ -29,6 +29,14 @@ a:hover, a:active, a:visited {
     text-align: center;
 }
 
+.introrow {
+	float: left;
+}
+
+#intro1, #intro2, #intro3 {
+	float: left;
+}
+
 /* Header */
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
