@@ -87,27 +87,27 @@ $("#myhand").click(function() {
   if (cardSelect % 4 === 0 && upArray[upArray.length - 1] % 4 === 0) {
     upArray.push(handArray.splice(cardPosition, 1));
     if (handArray.length === 0) {
-      $("#gamemessage").text("").prepend('<img id="failimg" src="https://38.media.tumblr.com/21417fbf48902a57d54dbca7b6730c59/tumblr_mqate6Ofim1r4s784o1_500.gif">');
+      $("#gamemessage").text("").prepend('<img id="failimg" src="https://33.media.tumblr.com/tumblr_ma8hgebI8L1rbb9gno1_400.gif">');
     }
   } else if (cardSelect % 3 === 0 && upArray[upArray.length - 1] % 3 === 0) {
     upArray.push(handArray.splice(cardPosition, 1));
     if (handArray.length === 0) {
-      $("#gamemessage").text("").prepend('<img id="failimg" src="https://38.media.tumblr.com/21417fbf48902a57d54dbca7b6730c59/tumblr_mqate6Ofim1r4s784o1_500.gif">');
+      $("#gamemessage").text("").prepend('<img id="failimg" src="https://33.media.tumblr.com/tumblr_ma8hgebI8L1rbb9gno1_400.gif">');
     }
   } else if (cardSelect % 5 === 0 && upArray[upArray.length - 1] % 5 === 0) {
     upArray.push(handArray.splice(cardPosition, 1));
     if (handArray.length === 0) {
-      $("#gamemessage").text("").prepend('<img id="failimg" src="https://38.media.tumblr.com/21417fbf48902a57d54dbca7b6730c59/tumblr_mqate6Ofim1r4s784o1_500.gif">');
+      $("#gamemessage").text("").prepend('<img id="failimg" src="https://33.media.tumblr.com/tumblr_ma8hgebI8L1rbb9gno1_400.gif">');
     }
   } else if (cardSelect % 7 === 0 && upArray[upArray.length - 1] % 7 === 0) {
     upArray.push(handArray.splice(cardPosition, 1));
     if (handArray.length === 0) {
-      $("#gamemessage").text("").prepend('<img id="failimg" src="https://38.media.tumblr.com/21417fbf48902a57d54dbca7b6730c59/tumblr_mqate6Ofim1r4s784o1_500.gif">');
+      $("#gamemessage").text("").prepend('<img id="failimg" src="https://33.media.tumblr.com/tumblr_ma8hgebI8L1rbb9gno1_400.gif">');
     }
   } else if (cardSelect % 11 === 0 && upArray[upArray.length - 1] % 11 === 0) {
     upArray.push(handArray.splice(cardPosition, 1));
     if (handArray.length === 0) {
-      $("#gamemessage").text("").prepend('<img id="failimg" src="https://38.media.tumblr.com/21417fbf48902a57d54dbca7b6730c59/tumblr_mqate6Ofim1r4s784o1_500.gif">');
+      $("#gamemessage").text("").prepend('<img id="failimg" src="https://33.media.tumblr.com/tumblr_ma8hgebI8L1rbb9gno1_400.gif">');
     }
   } else {
     handArray.push(deckArray.pop());
@@ -115,7 +115,7 @@ $("#myhand").click(function() {
     if (deckArray.length === 0) {
       $("#gamemessage").text("").prepend('<img id="failimg" src="http://www.i.minus.com/iQmVViGYz43sv.gif">');
     } else {
-      $("#gamemessage").prepend('<img id="failimg" src="http://media.giphy.com/media/aTg7Yt6793IUE/giphy.gif">');
+      $("#gamemessage").prepend('<img id="failimg" src="http://media.tumblr.com/fab5eeb4d9993ca68b824b8666db03fc/tumblr_inline_n8s25sPq4W1rkg7ly.gif">');
     }
   }
   $("#myhand").text("");
